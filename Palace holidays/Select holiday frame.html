@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <h2 align="center">Select your desired holiday here</h2>
+
+        <hr/>
+
+        <img src="palm tree icon.jpg" align="left" height="300px" width="300px">
+        <img src="palm tree icon.jpg" align="right" height="300px" width="300px">
+
+        <table align="center">
+            <form>
+                <tr>
+                    <td>
+                        <label>Select Your check-in date</label>
+                    </td>
+                    <td>
+                        <input type="date" name="date"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select your check-out date</label>
+                    </td>
+                    <td>
+                        <input type="date" name="date"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select Destination</label>
+                    </td>
+                    <td>
+                        <input list="subject" placeholder="Type Here"/>
+                        <datalist id="subject">
+                            <option value="London">London</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Abu Dhabi">Abu Dhabi</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Versailles">Versailles</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Istanbul">Istanbul</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Number of guests:
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label>Adults</Label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Enter Number"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Children</label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Enter Number"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Flexible dates?
+                    </td>
+            <td><Label>Yes</Label><input type="radio" value="yes" name="yes-no"/> </td>
+            <td><label>No</label><input type="radio" value="no" name="yes-no"/> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Search"/>
+                    </td>
+                </tr>
+            </form>
+        </table>
+        
+       
+
+    </body>
+</html>
